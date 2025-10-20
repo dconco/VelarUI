@@ -20,5 +20,4 @@ HTML);
    ->attach($Component)
    ->styleSheet([VelarUI\Assets::class, 'css'])
 
-
    ->run();
