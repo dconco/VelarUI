@@ -66,11 +66,9 @@ return <<<CSS
 
    /* --- Link Variant --- */
    .velar-btn-link {
+      text-decoration: none;
       background-color: transparent;
       color: var(--velar-primary);
       padding: 0;
-   }
-   .velar-btn-link:hover {
-      text-decoration: underline;
    }
 CSS;
