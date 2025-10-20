@@ -17,14 +17,14 @@ $Component = new Component(fn() => <<<HTML
       
       <br>
 
-      <VelarUI.Button children="Primary Button" variant="primary" />
-      <VelarUI.Button children="Secondary" variant="secondary" />
-      <VelarUI.Button children="Danger" variant="danger" type="submit" />
+      <VelarUI.Button variant="primary">Primary Button</VelarUI.Button>
+      <VelarUI.Button variant="secondary">Secondary</VelarUI.Button>
+      <VelarUI.Button variant="danger" type="submit">Danger</VelarUI.Button>
 
       <br><br>
 
-      <VelarUI.Button children="Outline" variant="outline-primary" />
-      <VelarUI.Button children="Link Button" variant="link" />
+      <VelarUI.Button variant="outline-primary">Outline</VelarUI.Button>
+      <VelarUI.Button variant="link">Link Button</VelarUI.Button>
 
       <br><br>
 
